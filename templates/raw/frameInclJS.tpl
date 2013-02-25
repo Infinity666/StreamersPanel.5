@@ -4,6 +4,7 @@
 <script src="./js/jquery.hashable.min.js"></script>
 <script src="./js/modernizr-2.6.2.min.js"></script>
 <script src="./js/bootstrap.js"></script>
+{if $currentTemplate != 'login.tpl'}
 <script src="./js/Slate.js"></script>
 <script src="./js/contentLoad.js"></script>
 <script src="./js/plugins/excanvas/excanvas.min.js"></script>
@@ -11,6 +12,7 @@
 <script src="./js/plugins/flot/jquery.flot.orderBars.js"></script>
 <script src="./js/plugins/flot/jquery.flot.pie.js"></script>
 <script src="./js/plugins/flot/jquery.flot.resize.js"></script>
+{/if}
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

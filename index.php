@@ -37,8 +37,8 @@ switch ($_GET['request']) {
         if (!is_file(P_TPL_DIR . '/TPL_Frame.php')) {
             throw new Exception('Frame template file could not be found!');
         }
-        require_once(P_TPL_DIR . '/TPL_Frame.php');
-        $tplObject = new TPL_Frame(Language::getObject());
+        require_once(P_TPL_DIR . '/TPL_Login.php');
+        $tplObject = new TPL_Login(Language::getObject());
         echo $tplObject->returnTemplate();
         break;
 }

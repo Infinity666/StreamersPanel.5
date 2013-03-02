@@ -1,11 +1,12 @@
-<link href="./css/bootstrap.css" rel="stylesheet">
-<link href="./css/bootstrap-responsive.css" rel="stylesheet">
-<link href="./css/bootstrap-overrides.css" rel="stylesheet">
-<link href="./css/ui-lightness/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-<link href="./css/slate.css" rel="stylesheet">
-<link href="./css/slate-responsive.css" rel="stylesheet">
-<link href="./css/pages/dashboard.css" rel="stylesheet">
-<link href="./css/components/error.css" rel="stylesheet">
-{if $currentTemplate == 'login.tpl'}
-<link href="./css/components/signin.css" rel="stylesheet" type="text/css">
-{/if}
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/css/metro.css" rel="stylesheet" />
+<link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href="assets/css/style.css" rel="stylesheet" />
+<link href="assets/css/style_responsive.css" rel="stylesheet" />
+<link href="assets/css/style_default.css" rel="stylesheet" id="style_color" />
+<link rel="stylesheet" type="text/css" href="assets/gritter/css/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="assets/uniform/css/uniform.default.css" />
+<link rel="stylesheet" type="text/css" href="assets/bootstrap-daterangepicker/daterangepicker.css" />
+<link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+<link href="assets/jqvmap/jqvmap/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />

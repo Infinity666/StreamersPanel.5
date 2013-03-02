@@ -50,7 +50,7 @@ var App = function () {
 
         // handle all elements which require to re-initialize on screen width change(on resize or on rotate mobile device)
         var handleElements = function () {
-            if (App.isPage("index")) {
+            if (App.isPage("main")) {
                 handleDashboardCalendar(); // handles full calendar for main page
                 jQuery('.vmaps').each(function () {
                     var map = jQuery(this);
@@ -761,7 +761,7 @@ var App = function () {
         $('#load_statistics_loading').hide();
         $('#load_statistics_content').show();
 
-        var updateInterval = 30;
+        var updateInterval = 500;
         var plot_statistics = $.plot($("#load_statistics"), [getRandomData()], {
             series: {
                 shadowSize: 1
@@ -1222,6 +1222,7 @@ var App = function () {
 
             $("#chart_3").bind("plothover", function (event, pos, item) {
                 latestPosition = pos;
+                if (!updateLegendTimeout) updateLegendTimeout = setTimeout(updateLegend, 50);
                 if (!updateLegendTimeout) updateLegendTimeout = setTimeout(updateLegend, 50);
             });
         }
@@ -2404,7 +2405,7 @@ var App = function () {
         init: function () {
             handleResponsive(); // set and handle responsive
 
-            if (App.isPage("index")) {
+            if (App.isPage("main")) {
                 handleDashboardCharts(); // handles plot charts for main page
                 handleJQVMAP(); // handles vector maps for home page
                 handleDashboardCalendar(); // handles full calendar for main page

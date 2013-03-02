@@ -16,16 +16,16 @@
       </form>
       <!-- END RESPONSIVE QUICK SEARCH FORM --> 
     </li>
-    <li class="active start"> <a href="index.html"> <i class="icon-home"></i> <span class="title">Dashboard</span> <span class="selected"></span> </a> </li>
+    <li class="active start"> <a href="javascript:;"> <i class="icon-home"></i> <span class="title">Übersicht</span> <span class="selected"></span> </a> </li>
     <li class="has-sub"> <a href="javascript:;"> <i class="icon-bookmark-empty"></i> <span class="title">UI Features</span> <span class="arrow"></span> </a>
       <ul class="sub">
-        <li><a href="ui_general.html">General</a></li>
-        <li><a href="ui_buttons.html">Buttons</a></li>
-        <li><a href="ui_tabs_accordions.html">Tabs & Accordions</a></li>
-        <li><a href="ui_typography.html">Typography</a></li>
+        <li><a href="javascript:;">General</a></li>
+        <li><a href="javascript:;">Buttons</a></li>
+        <li><a href="javascript:;">Tabs & Accordions</a></li>
+        <li><a href="javascript:;">Typography</a></li>
       </ul>
     </li>
-    <li class="has-sub"> <a href="javascript:;"> <i class="icon-table"></i> <span class="title">Form Stuff</span> <span class="arrow"></span> </a>
+    <li class="has-sub"> <a href="javascript:;"> <i class="icon-table"></i> <span class="title">System</span> <span class="arrow"></span> </a>
       <ul class="sub">
         <li><a href="form_layout.html">Form Layouts</a></li>
         <li><a href="form_component.html">Form Components</a></li>
@@ -33,10 +33,10 @@
         <li><a href="form_validation.html">Form Validation</a></li>
       </ul>
     </li>
-    <li class="has-sub"> <a href="javascript:;"> <i class="icon-th-list"></i> <span class="title">Data Tables</span> <span class="arrow"></span> </a>
+    <li class="has-sub"> <a href="javascript:;"> <i class="icon-th-list"></i> <span class="title">Stream-Server</span> <span class="arrow"></span> </a>
       <ul class="sub">
-        <li><a href="table_basic.html">Basic Tables</a></li>
-        <li><a href="table_managed.html">Managed Tables</a></li>
+        <li><a href="#">Steuerung</a></li>
+        <li><a href="#">Einstellungen</a></li>
       </ul>
     </li>
     <li> <a href="grids.html"> <i class="icon-th"></i> <span class="title">Grids & Portlets</span> </a> </li>

@@ -30,8 +30,7 @@
 <script src="assets/js/app.js"></script>
 <script>
 		jQuery(document).ready(function() {
-            App.setPage("index");  // set current page
-            App.init(); // init the rest of plugins and elements
+
 		});
 </script>
 
